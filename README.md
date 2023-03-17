@@ -33,6 +33,13 @@ A cross-platform server for the RTS Cossacks 3, intended for use in local area n
           * = 192.168.0.42:31523
       section.end
       ```
+      ** You can also add two IP address to servers.dat file, so you can choose the game server right from ingame menu.
+ ```
+   section.begin
+   * = 127.0.0.1:31523
+   * = 123.123.123.123:31523
+section.end
+```
 4. Start the game
 5. Type your nickname in the game key field in the login form. The email and password fields are irrelevant and can be left empty.
 6. If you want to play on the official server again, restore the backup from step #1 and restart the game.
